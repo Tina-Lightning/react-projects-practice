@@ -38,4 +38,5 @@ const AppProvider = ({ children }) => {
 export const useGlobalContext = () => {
   return useContext(AppContext);
 };
+// you don't need both of these exports (i think?)
 export { AppContext, AppProvider };
